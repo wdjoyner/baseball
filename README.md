@@ -3,7 +3,6 @@ Baseball sabermetric functions, in python/sagemath (sagemath.org)
 This file is intended to mine data from Retrosheet event files.
 
 
-#########################################################################
 ## To create the log file for a report of the form (for example)
 ## "Game states via Retrosheet: Errors in DET 2019 home games"
 ## perform the following steps:
@@ -13,9 +12,7 @@ This file is intended to mine data from Retrosheet event files.
 ##    sage: Errors_DET_2019 = errors_in_homegames(season = 2019, team = "DET", verbose=True) 
 ## 3) Save screen output to "errors-in-DET-2019-homegames_sage-log.txt"
 ## 4) edit to a latex file.
-##########################################################################
 
-##########################################################################
 ## To structure the for loop over the EVA/EVN event files,
 ## Mike Emeigh <mwe55inncgmail.com> suggests:
 ##
@@ -24,7 +21,6 @@ This file is intended to mine data from Retrosheet event files.
 ##
 ## os.chdir(os.path.expanduser(‘eventfile/directory’))
 ## for f in glob.iglob(‘*.E[D|V][A|N]’):
-##########################################################################
 
 
 
