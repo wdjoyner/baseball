@@ -1,5 +1,5 @@
 """
-Baseball sabermetric functions, part 2
+Baseball sabermetric functions, in python/sagemath
 
 This file is intended to mine data from Retrosheet event files.
 
