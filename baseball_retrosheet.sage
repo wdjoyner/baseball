@@ -16,17 +16,6 @@ This file is intended to mine data from Retrosheet event files.
 ## 4) edit to a latex file.
 ##########################################################################
 
-##########################################################################
-## To structure the for loop over the EVA/EVN event files,
-## Mike Emeigh <mwe55inncgmail.com> suggests:
-##
-## import glob
-## import os
-##
-## os.chdir(os.path.expanduser(‘eventfile/directory’))
-## for f in glob.iglob(‘*.E[D|V][A|N]’):
-##########################################################################
-
 
 
 * baseball_states()
